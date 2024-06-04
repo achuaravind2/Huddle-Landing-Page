@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #674bb1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    width: 1318px;
+    height: 800px;
+    background-image: url("../bg-desktop.svg");
+    top: 50%;
+    left: 50%;
+
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 45px;
+    left: 75px;
+}
+
+.illustration-img {
+    width: 45%;
+    height: auto;
+    position:absolute;
+    top: 160px;
+    left: 75px;
+    float: left;
+}
+
+.contents {
+    float: right;
+    width: 35%;
+    margin-top: 235px;
+    
+}
+
+.contents h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 35px;
+    line-height: 1.7;
+}
+
+.container p {
+    color: #f9eefb;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.button {
+    display: inline-block;
+    width: 120px;
+    padding: 10px 15px;
+    color: #674bb1;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: 0 4px 10px black;
+}
+.button:hover {
+    background-color: #e980e7;
+    color: #fae5fa;
+
+}
+.social-media {
+    position: absolute;
+    right: 150px;
+    bottom: -20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
